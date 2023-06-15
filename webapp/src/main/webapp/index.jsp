@@ -1,6 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Image Gallery</title>
+  <style>
+    /* CSS styles go here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .image-item {
+      width: 300px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .image-item img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Image Gallery</h1>
+  </header>
+  
+  <main>
+    <h2>Welcome to the Image Gallery!</h2>
+    
+    <div class="image-container">
+      <div class="image-item">
+        <img src="image1.jpg" alt="Image 1">
+        <h3>Image 1</h3>
+        <p>Description of Image 1.</p>
+      </div>
+      
+      <div class="image-item">
+        <img src="image2.jpg" alt="Image 2">
+        <h3>Image 2</h3>
+        <p>Description of Image 2.</p>
+      </div>
+      
+      <div class="image-item">
+        <img src="image3.jpg" alt="Image 3">
+        <h3>Image 3</h3>
+        <p>Description of Image 3.</p>
+      </div>
+      
+      <div class="image-item">
+        <img src="image4.jpg" alt="Image 4">
+        <h3>Image 4</h3>
+        <p>Description of Image 4.</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
   <title>eCommerce Application</title>
   <style>
     /* CSS styles go here */

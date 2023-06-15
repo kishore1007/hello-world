@@ -1,6 +1,130 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Zoom Cars - Rent a Car</title>
+  <style>
+    /* CSS styles go here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #666;
+      padding: 10px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .car-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .car-item {
+      width: 300px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .car-item img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .car-item h3 {
+      margin: 0;
+    }
+    
+    .car-item p {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Zoom Cars - Rent a Car</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Cars</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <h2>Welcome to Zoom Cars!</h2>
+    <p>Rent a car for your next journey and enjoy the freedom of the road.</p>
+    
+    <h3>Available Cars</h3>
+    <div class="car-container">
+      <div class="car-item">
+        <img src="car1.jpg" alt="Car 1">
+        <h3>Car 1</h3>
+        <p>Description of Car 1.</p>
+        <p>Price: $50 per day</p>
+        <button>Rent Now</button>
+      </div>
+      
+      <div class="car-item">
+        <img src="car2.jpg" alt="Car 2">
+        <h3>Car 2</h3>
+        <p>Description of Car 2.</p>
+        <p>Price: $60 per day</p>
+        <button>Rent Now</button>
+      </div>
+      
+      <div class="car-item">
+        <img src="car3.jpg" alt="Car 3">
+        <h3>Car 3</h3>
+        <p>Description of Car 3.</p>
+        <
+
+<!DOCTYPE html>
+<html>
+<head>
   <title>Image Gallery</title>
   <style>
     /* CSS styles go here */

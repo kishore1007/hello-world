@@ -119,7 +119,7 @@
                     </div>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae doloremque fugit sequi quidem
                         eveniet?</p>
-                    <button>Add To Cart</button>
+                    <button>Add o Cart</button>
                 </div>
             </div>
 
